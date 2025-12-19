@@ -1,0 +1,10 @@
+text
+assets/
+journals/
+logseq/
+pages/
+whitboards/
+.recyle-bin/
+.settings/
+*.tmp
+.DS_Store
