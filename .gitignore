@@ -1,0 +1,11 @@
+text
+journals/
+logseq/
+whitboards/
+.recyle-bin/
+.settings/
+*.tmp
+.DS_Store 
+ttnb.sh
+assets/analytics.html
+assets/logo.png

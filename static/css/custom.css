@@ -1,0 +1,827 @@
+/* =============================================================================
+   LOGSEQ CUSTOM.CSS
+   Each section explains what the styles do and why.
+   ============================================================================= */
+
+
+/* =============================================================================
+   1. CHARSET & FONTS
+   ============================================================================= */
+
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Overused Grotesk';
+    src: url('https://cdn.jsdelivr.net/gh/stashiiing/notes@main/static/fonts/OverusedGrotesk-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Overused Grotesk';
+    src: url('https://cdn.jsdelivr.net/gh/stashiiing/notes@main/static/fonts/OverusedGrotesk-LightItalic.woff2') format('woff2');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Overused Grotesk';
+    src: url('https://cdn.jsdelivr.net/gh/stashiiing/notes@main/static/fonts/OverusedGrotesk-Book.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Overused Grotesk';
+    src: url('https://cdn.jsdelivr.net/gh/stashiiing/notes@main/static/fonts/OverusedGrotesk-BookItalic.woff2') format('woff2');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Overused Grotesk';
+    src: url('https://cdn.jsdelivr.net/gh/stashiiing/notes@main/static/fonts/OverusedGrotesk-Roman.woff2') format('woff2');
+    font-weight: 450;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Overused Grotesk';
+    src: url('https://cdn.jsdelivr.net/gh/stashiiing/notes@main/static/fonts/OverusedGrotesk-Italic.woff2') format('woff2');
+    font-weight: 450;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Overused Grotesk';
+    src: url('https://cdn.jsdelivr.net/gh/stashiiing/notes@main/static/fonts/OverusedGrotesk-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Overused Grotesk';
+    src: url('https://cdn.jsdelivr.net/gh/stashiiing/notes@main/static/fonts/OverusedGrotesk-MediumItalic.woff2') format('woff2');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Overused Grotesk';
+    src: url('https://cdn.jsdelivr.net/gh/stashiiing/notes@main/static/fonts/OverusedGrotesk-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Overused Grotesk';
+    src: url('https://cdn.jsdelivr.net/gh/stashiiing/notes@main/static/fonts/OverusedGrotesk-SemiBoldItalic.woff2') format('woff2');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Overused Grotesk';
+    src: url('https://cdn.jsdelivr.net/gh/stashiiing/notes@main/static/fonts/OverusedGrotesk-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Overused Grotesk';
+    src: url('https://cdn.jsdelivr.net/gh/stashiiing/notes@main/static/fonts/OverusedGrotesk-BoldItalic.woff2') format('woff2');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Overused Grotesk';
+    src: url('https://cdn.jsdelivr.net/gh/stashiiing/notes@main/static/fonts/OverusedGrotesk-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Overused Grotesk';
+    src: url('https://cdn.jsdelivr.net/gh/stashiiing/notes@main/static/fonts/OverusedGrotesk-ExtraBoldItalic.woff2') format('woff2');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Overused Grotesk';
+    src: url('https://cdn.jsdelivr.net/gh/stashiiing/notes@main/static/fonts/OverusedGrotesk-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Overused Grotesk';
+    src: url('https://cdn.jsdelivr.net/gh/stashiiing/notes@main/static/fonts/OverusedGrotesk-BlackItalic.woff2') format('woff2');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+/* =============================================================================
+   2. ROOT — GLOBAL CSS VARIABLES
+   ============================================================================= */
+
+:root {
+    /* Makes the main content column nearly full-width (default is constrained) */
+    --ls-main-content-max-width: 100%;
+
+    /* This overrides or references any imported font above. */
+    --ls-font-family: "Overused Grotesk", sans-serif;
+
+
+    /* Body text size inside pages */
+    --ls-page-text-size: 1em;
+
+    /* Page title size — set to 1em so the title is the SAME size as body text */
+    --ls-page-title-size: 1em;
+
+    /* --- KEY ---
+       Defined here so all CSS rules below can access them,
+       not just the theme variable block. */
+    --white:        #FFFFFF;
+    --black:        #000000;
+    --near-black:   #0A0A0A;
+    --darkest-grey: #191919;
+    --darker-grey:  #1A1A1A;
+    --dark-grey:    #464646;
+    --grey:         #5a5a5a5a;
+    --mid-grey:     #9E9E9E; /*888888*/
+    --light-grey:   #C8C8C8;
+
+    --deep-amber:   #a6672a;
+    --green:        #00C800;
+    --bright-red:   #FF433D;
+    --grey-blue:    #57778a;
+    --deep-red:     #3D0400;
+    --blue:         #0068FF;
+
+    /* thumb then track */
+    scrollbar-color: var(--grey) var(--darker-grey);
+    scrollbar-width: thin;
+
+}
+
+
+/* =============================================================================
+   3. THEME VARIABLES
+   Scoped to dark theme only.
+   ============================================================================= */
+
+
+.dark-theme,
+html[data-theme=dark] {
+
+    /* --- BACKGROUND LAYERS --- */
+    --ls-primary-background-color:          var(--black);           /* Main page background */
+    --ls-secondary-background-color:        var(--darkest-grey);    /* Left & right sidebar, modals */
+    --ls-tertiary-background-color:         var(--darkest-grey);    /* Hover states, nested panels */
+    --ls-quaternary-background-color:       var(--deep-red);        /* Pop-out window background fade */
+    --ls-menu-hover-color:                  var(--deep-red);        /* Dropdown/context menu hover background */
+
+    /* --- UTILITY BACKGROUNDS --- */
+    --ls-block-properties-background-color: var(--darker-grey);     /* Block property background (:type:: value) */
+    --ls-callout-background-color:          var(--darker-grey);     /* #+BEGIN_NOTE / admonition block background */
+    --ls-block-highlight-color:             var(--darker-grey);     /* Block background when focused/highlighted */
+    --ls-table-tr-even-background-color:    var(--darker-grey);     /* Alternating row tint in tables */
+    --bf-codeblock-background-color:        var(--black);           /* Code block background */
+
+    --color-level-1:                        var(--darker-grey);     /* Embed background in main page */
+    --color-level-2:                        var(--darker-grey);     /* Embed background in sidebar */
+    --color-level-3:                        var(--darker-grey);
+
+    /* --- TEXT COLORS --- */
+    --ls-primary-text-color:                var(--mid-grey);        /* Main body text */
+    --ls-page-inline-code-color:            var(--mid-grey);        /* Inline `code` text color */
+    --ls-secondary-text-color:              var(--grey);            /* Text: properties::, timestamps */
+    --ls-selection-background-color:        var(--grey);            /* Text selection background */
+    --ls-link-text-hover-color:             unset;                  /* Task links hover */
+    --ls-page-inline-code-bg-color:         var(--grey);            /* Inline `code` background tint */
+    --ls-link-text-color:                   var(--deep-amber);      /* [[Page references]] link */
+    --lx-accent-11:                         var(--deep-amber);      /* [[Page references]] link when web publishing*/
+
+    /* --- BULLETS & INDENT GUIDES --- */
+    --ls-block-bullet-color:                var(--dark-grey);       /* Bullet dot color */
+    --ls-block-bullet-border-color:         var(--grey);        /* Border around bullet dots */
+
+    --ls-guideline-color:                   var(--darker-grey);     /* Vertical indent guide line color */
+    --ls-border-color:                      var(--dark-grey);       /* Table row dividers / panel borders */
+
+    /* --- CHECKBOXES --- */
+    --ls-page-checkbox-color:               var(--grey);            /* TODO checkbox fill */
+
+    /* --- SCROLL BAR --- */
+    --ls-scrollbar-foreground-color:        var(--grey);            /* Scrollbar thumb */
+    --ls-scrollbar-background-color:        var(--darker-grey);     /* Scrollbar track */
+
+    /* --- OTHER --- */
+    --ls-active-primary-color:              var(--deep-amber);      /* Embed page icon */
+    --ls-active-secondary-color:            var(--white);           /* Embed page icon folded corner */
+    --ls-cloze-text-color:                  var(--white);           /* Cloze deletions in flashcards */
+}
+
+
+/* =============================================================================
+   4.0 DIRECT OVERRIDES — TEXT STYLE
+   Properties that cannot be set via CSS variables alone.
+   ============================================================================= */
+
+/* Strikethrough */
+del {
+    color: var(--mid-grey);
+}
+
+/* Italic */
+i {
+    font-style: italic;
+    color: var(--light-grey);
+}
+
+i, em {
+    font-family: 'Overused Grotesk' !important;
+    font-synthesis: style;
+    font-weight: 400 !important;
+    font-style: italic !important;
+}
+
+/* Bold */
+b, strong {
+    font-weight: 700;
+    color: var(--light-grey);
+}
+
+/* Headings H1–H6 inside content */
+.content h1 {
+    font-weight: 500;
+    font-size: 1.3em;
+    color: var(--mid-grey);
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+
+.content h2 {
+    font-weight: 500;
+    font-size: 1.2em;
+    color: var(--mid-grey);
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+
+.content h3 {
+    font-weight: 500;
+    font-size: 1.1em;
+    color: var(--mid-grey);
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+
+.content h4 {
+    font-weight: 400;
+    font-size: 1.05em;
+    color: var(--mid-grey);
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+
+.content h5 {
+    font-weight: 400;
+    font-size: 1em;
+    color: var(--mid-grey);
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+
+.content h6 {
+    font-weight: 400;
+    font-size: 0.9em;
+    color: var(--mid-grey);
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+
+
+/* Remove extra margin inside editor textarea for headings */
+.content .editor-inner textarea {
+    margin: 0 !important;
+}
+.content .editor-inner textarea.h1,
+.content .editor-inner textarea.h2 {
+    border-bottom: none;
+}
+
+
+/* Highlight — ^^text^^ or ==text== */
+mark {
+    background: var(--light-grey) !important;
+    color: var(--dark-grey) !important;
+    line-height: inherit !important;
+    padding: 0.05em 0.3em;
+}
+
+/* Hide the entire "public:: true" row, keep other properties visible */
+div:has(> div > [data-ref="public"].page-property-key) {
+    display: none !important;
+}
+
+
+/* =============================================================================
+   4.1 DIRECT OVERRIDES — LINKS
+   ============================================================================= */
+
+/* Page ref links */
+.page-ref {
+    color: var(--deep-amber) !important;
+}
+/* Page ref links */
+.page-ref:hover {
+    color: var(--light-grey) !important;
+}
+
+
+/* # Tags: text, no underline or border */
+.content a.tag {
+    font-weight: 500;
+    padding: 0em 0em;
+    text-decoration: none;
+    border: none;
+    color: var(--deep-amber);
+    opacity: 1;
+    
+}
+
+/* Tags: background on hover */
+html[data-theme=dark][data-color=logseq] .content a.tag:hover {
+    background-color: unset !important;
+    color: var(--light-grey);
+    padding: 0em 0.0em;
+}
+
+
+/* External links: no underline, no border */
+.content a.external-link {
+    text-decoration: none !important;
+    border-bottom: none !important;
+    color: var(--grey-blue);
+}
+
+/* External links: brighter on hover */
+.content a.external-link:hover {
+    color: var(--bright-red);
+}
+
+/* Block references — ((block ref)) */
+.dark-theme .content .block-ref,
+html[data-theme=dark] .content .block-ref {
+    padding: 0.02em 0.5em;
+    text-decoration: none !important;
+    border-radius: 1px;
+    font-style: italic;
+    background: var(--grey);
+    color: var(--deep-amber);
+    border-bottom-color: var(--grey);
+}
+
+
+/* =============================================================================
+   4.2 DIRECT OVERRIDES — HEADER ICONS
+   Top-bar icons (search, settings, etc.)
+   ============================================================================= */
+
+/* Dimmed by default, full opacity on hover with background highlight */
+.cp__header button.icon {
+    opacity: 0.5;
+    transition: opacity ease 0.8s;
+}
+
+.cp__header button.icon:hover {
+    opacity: 1;
+    background-color: var(--deep-red);
+}
+
+
+/* =============================================================================
+   4.3 DIRECT OVERRIDES — LEFT SIDEBAR
+   ============================================================================= */
+
+/* Sidebar icons */
+.dark-theme .cp__header svg,
+.dark-theme .left-sidebar-inner svg,
+html[data-theme=dark] .cp__header svg,
+html[data-theme=dark] .left-sidebar-inner svg {
+    color: var(--light-grey);
+}
+
+/* Active/chosen sidebar item */
+.dark-theme .left-sidebar-inner a.item.active,
+html[data-theme=dark] .left-sidebar-inner a.item.active {
+    background-color: var(--deep-red);
+}
+
+/* Small gap below each nav section */
+.left-sidebar-inner nav {
+    margin-bottom: 0.1rem;
+}
+
+/* Space between Favorites, Recent, etc. sections */
+.left-sidebar-inner .nav-contents-container {
+    gap: 0.1rem;
+}
+
+/* Hover highlight on sidebar links */
+.left-sidebar-inner a.item:hover {
+    opacity: unset;
+    background-color: var(--deep-red);
+}
+
+/* Hover highlight on section headers and their child links */
+.left-sidebar-inner .nav-content-item .header:hover,
+.left-sidebar-inner .nav-content-item .bd ul a:hover {
+    background-color: var(--deep-red);
+}
+
+/* Section labels (e.g. "FAVORITES", "RECENT") — shrunk and faded */
+.left-sidebar-inner .nav-content-item .header .wrap-th > span {
+    font-weight: 300;
+    font-size: 0.85rem;
+    opacity: 0.6;
+    transition: opacity ease 0.3s;
+}
+
+
+/* =============================================================================
+   4.4 DIRECT OVERRIDES — RIGHT SIDEBAR
+   ============================================================================= */
+
+/* Settings button */
+.cp__right-sidebar .cp__right-sidebar-topbar .cp__right-sidebar-settings .cp__right-sidebar-settings-btn {
+    padding: 2px 10px;
+    border-radius: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--mid-grey);
+}
+
+.cp__right-sidebar .cp__right-sidebar-topbar .cp__right-sidebar-settings .cp__right-sidebar-settings-btn:hover {
+    background-color: var(--deep-red);
+}
+
+
+.cp__right-sidebar {
+    width: 25% !important;
+    min-width: unset !important;
+    Background-color: unset;
+}
+
+/* Sidebar content items: no padding, shadow, or border */
+.cp__right-sidebar .sidebar-item-list .sidebar-item {
+    margin: 0px 0px;
+    --tw-shadow: unset;
+    padding: 0px 0px 0px 0px;
+    border: 0;
+}
+
+/* Slightly smaller font for sidebar content */
+.cp__right-sidebar .sidebar-item-list .sidebar-item .content {
+    font-size: 0.95rem;
+}
+
+
+/* =============================================================================
+   4.5 DIRECT OVERRIDES — CONTENT MARGINS
+   ============================================================================= */
+
+/* Outer padding around the entire content area */
+#main-content-container {
+    padding: 0.0rem 1.0rem;
+}
+
+/* Calendar emoji before journal/daily note page titles */
+#main-content-container .is-journals h1.page-title:before {
+    content: "🗓";
+    vertical-align: text-bottom;
+    margin-right: 0.3em;
+    font-size: 0.75em;
+    align-self: center;
+}
+
+/* Journal page title: small icon space */
+#main-content-container .journal.page h1.title:before {
+    vertical-align: text-bottom;
+    margin-right: 0.3em;
+    font-size: 0.75em;
+    font-weight: 300;
+}
+
+/* Page title: non-bold, same size as body text */
+#main-content-container .cp__sidebar-main-content h1.title {
+    font-weight: 400;
+    font-size: var(--ls-page-title-size);
+    margin-bottom: 0.25rem;
+    margin-left: 0 !important;
+}
+
+
+/* =============================================================================
+   4.6 DIRECT OVERRIDES — BLOCKS
+   ============================================================================= */
+
+/* Collapse vertical space around horizontal rules */
+.content hr {
+    margin: 0.0rem 0;
+}
+
+/* Small gap below parent blocks that have children */
+.content div[haschild=true] > div.flex-row {
+    margin-bottom: 0.3rem;
+}
+
+/* Small gap below child block groups */
+.content .block-children {
+    margin-bottom: 0rem;
+}
+
+/* Indent guide lines: no rounded cap, smooth color transition on hover */
+.content .block-children-left-border {
+    border-radius: unset;
+    transition: background-color 0.3s;
+    padding: 0 1px;
+}
+
+/* Block property drawers (:type:: value metadata) */
+.content .block-properties {
+    margin: 0em 0;
+    padding: 0em 0.5em;
+}
+
+/* Block property titles */
+.page-property-key {
+    color: var(--grey) !important;
+}
+.page-property-key:hover {
+    background-color: var(--mid-grey) !important;
+    padding: 0em 0em;
+    color: var(--darkest-grey)!important;
+}
+
+
+/* Blockquotes: no background tint */
+.content blockquote {
+    background-color: unset;
+}
+
+/* Blockquote: left border and text color */
+.dark-theme .content blockquote,
+html[data-theme=dark] .content blockquote {
+    border-left-color: var(--grey);
+    color: var(--mid-grey) !important;
+}
+
+/* --- ADMONITION / CALLOUT BLOCKS ---
+   #+BEGIN_NOTE, #+BEGIN_TIP, #+BEGIN_WARNING, #+BEGIN_IMPORTANT, #+BEGIN_CAUTION */
+
+/* Container */
+.content .admonitionblock {
+    padding: 10px 10px 10px 10px;
+    background-color: var(--ls-callout-background-color);
+    margin: unset;
+}
+
+/* Slightly smaller text inside callouts */
+.content .admonitionblock .text-lg {
+    font-size: 0.9em;
+    margin-left: 0;
+    line-height: 1.35rem;
+}
+
+/* Icon area: no border */
+.content .admonitionblock .admonition-icon {
+    padding-right: 0.65em;
+    border: unset;
+}
+
+/* Remove drop shadow from icons */
+.content .admonitionblock .admonition-icon svg.svg-shadow {
+    -webkit-filter: unset;
+    filter: unset;
+}
+
+/* Icon size */
+.content .admonitionblock .admonition-icon svg.h-8.w-8 {
+    width: 1em;
+    height: 1em;
+}
+
+/* Icon colors by type */
+.content .admonitionblock .admonition-icon svg.note {
+    color: var(--ls-secondary-text-color);
+}
+.content .admonitionblock .admonition-icon svg.tip {
+    color: var(--green);
+}
+.content .admonitionblock .admonition-icon svg.warning {
+    color: var(--blue) !important;
+}
+.content .admonitionblock .admonition-icon svg.important {
+    color: var(--grey-blue) !important;
+}
+.content .admonitionblock .admonition-icon svg.caution {
+    color: var(--deep-amber) !important;
+}
+
+/* --- LISTS ---
+   shift+enter within a block to create a list */
+
+/* Tighten spacing */
+.content ul,
+.content ol {
+    margin-top: 1px;
+    margin-bottom: 5px;
+}
+
+/* Prevent unwanted blank line before first list item */
+.content ul > li > p:first-child,
+.content ol > li > p:first-child {
+    display: inline;
+}
+
+/* --- CHECKBOXES & TODO MARKERS --- */
+
+/* Circular checkboxes */
+.content .form-checkbox {
+    border-radius: 30%;
+    z-index: 1;
+    position: relative;
+    margin-top: unset !important;
+    margin-left: 0.1em;
+}
+
+/* TODO/DONE/LATER marker labels: dimmed pill */
+.content .marker-switch {
+    opacity: 0.4;
+    font-weight: 700;
+    transition: 0.3s;
+    margin-left: 0em;
+    margin-right: 2px;
+    padding: 0 8px 0 .2em;
+    border-radius: 12px;
+}
+
+/* --- CUSTOM QUERY BLOCKS — {{query ...}} --- */
+
+/* Small gap above query result blocks */
+.content .custom-query {
+    margin-top: 0.5rem;
+}
+
+/* Query title: rounded pill, smaller text */
+.content .custom-query .custom-query-title .query-title {
+    border-radius: 20px;
+    font-size: 0.85em;
+}
+
+/* Default cursor on query result tables */
+.content .custom-query .overflow-x-auto {
+    cursor: default;
+}
+
+/* Column headers: bold, capitalized, with bottom border */
+.content .custom-query .overflow-x-auto table th {
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-left: 1em;
+    border-bottom: solid 1px var(--ls-border-color);
+}
+
+/* Header link text */
+.content .custom-query .overflow-x-auto table th a span {
+    color: var(--ls-primary-text-color);
+}
+
+/* Table cells */
+.content .custom-query .overflow-x-auto table tr td {
+    font-size: .95em;
+    padding: .5em .3em .5em .9em;
+}
+
+/* --- CODE & CALC. BLOCKS --- */
+
+/* Code block wrapper */
+.extensions__code {
+    display: block;
+}
+
+/* Internal editor margin */
+.extensions__code .code-editor {
+    margin: 0.5rem 0;
+}
+
+/* Language label (e.g. "bash"): dimmed, no background */
+.extensions__code .extensions__code-lang {
+    margin-right: 5px;
+    margin-top: 3px;
+    padding: unset;
+    background-color: unset;
+    opacity: .5;
+}
+
+/* Line numbers */
+.cm-s-lsradix.cm-s-dark .CodeMirror-linenumber {
+    color: var(--mid-grey);
+    padding: 0 10px;
+}
+
+/* code and calculator block */
+.CodeMirror pre.CodeMirror-line,  .CodeMirror-scroll, .CodeMirror-sizer {
+   color: var(--mid-grey); 
+   background-color: var(--darker-grey);
+}
+
+/* code and calculator block gutter */
+.CodeMirror-gutter, .CodeMirror-gutters {
+    background-color: var(--dark-grey);
+}
+
+/* --- ASSETS / IMAGE OVERLAY ---
+   Hides the UI overlay on embedded images when hovered or focused */
+
+.block-content .asset-container:focus .asset-overlay,
+.block-content .asset-container:hover .asset-overlay {
+    opacity: 0;
+}
+
+/* --- CARD --- */
+
+/* review card button */
+.bg-primary\/90 {
+    background-color: var(--grey) !important;
+}
+/* review card button text */
+.ui__button.as-classic {
+    color: var(--light-grey)!important;
+}
+
+/* =============================================================================
+   4.7 DIRECT OVERRIDES — DOCUMENT MODE (type T D to activate)
+   When Logseq is in Document Mode (outline bullets hidden),
+   headings get breathing room via margin.
+   ============================================================================= */
+
+/* Force document-mode bullet hiding on the published site */
+.bullet {
+    visibility: hidden;
+}
+
+.document-mode .ls-block {
+    margin-bottom: .35rem;
+}
+
+.document-mode .ls-block h1 {
+    margin: .1em 0;
+}
+
+.document-mode .ls-block h2 {
+    margin: .15em 0;
+}
+
+.document-mode .ls-block h3 {
+    margin: .35em 0;
+}
+
+.document-mode .ls-block h4 {
+    margin: .5em 0;
+}
+
+.document-mode .ls-block h5 {
+    margin: .55em 0;
+}
+
+.document-mode .ls-block h6 {
+    margin: .65em 0;
+}
