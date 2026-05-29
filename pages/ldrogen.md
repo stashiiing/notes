@@ -1,0 +1,2 @@
+- [@LDrogen](https://x.com/LDrogen)
+- GP/CIO [@StarkillerCap](https://x.com/StarkillerCap) a quant driven digital assets investment firm, Founder [@Estimize](https://x.com/Estimize) (acq), even I don’t agree today with everything I’ve tweeted
