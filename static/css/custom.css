@@ -425,6 +425,9 @@ html[data-theme=dark] .content .block-ref {
     background-color: var(--deep-red);
 }
 
+a.button[href="#/graph"] {
+    display: none !important;
+}
 
 /* =============================================================================
    4.3 DIRECT OVERRIDES — LEFT SIDEBAR
@@ -510,6 +513,11 @@ html[data-theme=dark] .left-sidebar-inner a.item.active {
 /* Slightly smaller font for sidebar content */
 .cp__right-sidebar .sidebar-item-list .sidebar-item .content {
     font-size: 0.95rem;
+}
+
+/* Hide Graph Page */
+.text-sm:has(> button.cp__right-sidebar-settings-btn) {
+    display: none !important;
 }
 
 
