@@ -1,6 +1,7 @@
-- Traders
+- Authors
 	- [[52kSkew]]
 	- [[abetrade]]
+	- [[dlawant]]
 - Project info.
 	- [[More on TTNB]]
 	-
