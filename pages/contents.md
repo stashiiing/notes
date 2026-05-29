@@ -1,4 +1,3 @@
-- [[The Traders Note-book (TTNB)]]
 - Traders
 	- [[52kSkew]]
 	- [[abetrade]]
