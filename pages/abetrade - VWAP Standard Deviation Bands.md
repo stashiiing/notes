@@ -1,16 +1,17 @@
-- author:: [[abetrade]]
-  summary:: A framework for using VWAP standard deviation bands (1 SD and 2 SD) both as trend-following zones on strong moves and as mean-reversion triggers when price re-accepts inside the bands. The approach requires strong confluence for mean-reversion trades and is more forgiving when used for trend continuation.
-  category:: [[strategy]]
-  sub-cat:: [[price-action]], [[orderflow]]
-  timeframe:: [[intraday]]
-  market:: [[all]]
-  instrument:: 
-  tools:: [[VWAP]], [[VWAP bands]], [[CVD]], [[footprint chart]]
-  difficulty:: [[intermediate]]
-  source:: [https://education.tradingriot.com/vwap-trading-strategy/](https://education.tradingriot.com/vwap-trading-strategy/)
-  association:: 
-  public:: true
-  status:: [[draft]]
+author:: [[abetrade]]
+summary:: A framework for using VWAP standard deviation bands (1 SD and 2 SD) both as trend-following zones on strong moves and as mean-reversion triggers when price re-accepts inside the bands. The approach requires strong confluence for mean-reversion trades and is more forgiving when used for trend continuation.
+category:: [[strategy]]
+sub-cat:: [[price-action]], [[orderflow]]
+timeframe:: [[intraday]]
+market:: [[all]]
+instrument:: 
+tools:: [[VWAP]], [[VWAP bands]], [[CVD]], [[footprint chart]]
+difficulty:: [[intermediate]]
+source:: [https://education.tradingriot.com/vwap-trading-strategy/](https://education.tradingriot.com/vwap-trading-strategy/)
+association:: 
+public:: true
+status:: [[draft]]
+
 - # abetrade - VWAP Standard Deviation Bands
 - ## TL;DR
 	- On strong trending days, price often pulls back only to the 1 SD band rather than all the way to VWAP. Entries can be taken at that band for trend continuation. When price re-accepts inside the 1 SD band, a mean-reversion trade targeting VWAP or the opposite band is possible -- but only with significant order flow confluence.

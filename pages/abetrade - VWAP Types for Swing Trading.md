@@ -1,16 +1,17 @@
-- author:: [[abetrade]]
-  summary:: An overview of three VWAP variants suited to swing trading: fixed-period VWAP (weekly, monthly, quarterly, yearly), Rolling VWAP, and Anchored VWAP. Each solves different limitations of the standard intraday VWAP and is best suited to trending environments on higher timeframes. Anchored VWAP, pegged to key swing points, is presented as the most flexible and powerful of the three.
-  category:: [[concept]]
-  sub-cat:: [[price-action]]
-  timeframe:: [[swing]]
-  market:: [[all]], [[crypto]]
-  instrument:: 
-  tools:: [[VWAP]], [[anchored VWAP]], [[rolling VWAP]]
-  difficulty:: [[intermediate]]
-  source:: [https://education.tradingriot.com/vwap-trading-strategy/](https://education.tradingriot.com/vwap-trading-strategy/)
-  association:: 
-  public:: true
-  status:: [[draft]]
+author:: [[abetrade]]
+summary:: An overview of three VWAP variants suited to swing trading: fixed-period VWAP (weekly, monthly, quarterly, yearly), Rolling VWAP, and Anchored VWAP. Each solves different limitations of the standard intraday VWAP and is best suited to trending environments on higher timeframes. Anchored VWAP, pegged to key swing points, is presented as the most flexible and powerful of the three.
+category:: [[concept]]
+sub-cat:: [[price-action]]
+timeframe:: [[swing]]
+market:: [[all]], [[crypto]]
+instrument:: 
+tools:: [[VWAP]], [[anchored VWAP]], [[rolling VWAP]]
+difficulty:: [[intermediate]]
+source:: [https://education.tradingriot.com/vwap-trading-strategy/](https://education.tradingriot.com/vwap-trading-strategy/)
+association:: 
+public:: true
+status:: [[draft]]
+
 - # abetrade - VWAP Types for Swing Trading
 - ## TL;DR
 	- Three VWAP variants extend VWAP utility beyond intraday use. Fixed-period VWAPs (weekly/monthly/quarterly) work in trending environments but are data-thin at period start. Rolling VWAP solves the reset problem, particularly useful for 24/7 markets like crypto. Anchored VWAP, tied to significant swing highs/lows, is the most flexible tool and works best when anchored on higher-timeframe key levels.

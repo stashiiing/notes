@@ -1,16 +1,17 @@
-- author:: [[abetrade]]
-  summary:: A trend-following approach using the daily VWAP as a dynamic reference level. The trader waits for price to break and retest the VWAP rather than attempting mean reversion, treating the VWAP as a trend filter and entry trigger. Confluence from Volume Profile and order flow significantly improves accuracy.
-  category:: [[strategy]]
-  sub-cat:: [[price-action]], [[orderflow]]
-  timeframe:: [[intraday]]
-  market:: [[all]]
-  instrument:: 
-  tools:: [[VWAP]], [[volume profile]], [[CVD]], [[footprint chart]]
-  difficulty:: [[intermediate]]
-  source:: [https://education.tradingriot.com/vwap-trading-strategy/](https://education.tradingriot.com/vwap-trading-strategy/)
-  association:: 
-  public:: true
-  status:: [[draft]]
+author:: [[abetrade]]
+summary:: A trend-following approach using the daily VWAP as a dynamic reference level. The trader waits for price to break and retest the VWAP rather than attempting mean reversion, treating the VWAP as a trend filter and entry trigger. Confluence from Volume Profile and order flow significantly improves accuracy.
+category:: [[strategy]]
+sub-cat:: [[price-action]], [[orderflow]]
+timeframe:: [[intraday]]
+market:: [[all]]
+instrument:: 
+tools:: [[VWAP]], [[volume profile]], [[CVD]], [[footprint chart]]
+difficulty:: [[intermediate]]
+source:: [https://education.tradingriot.com/vwap-trading-strategy/](https://education.tradingriot.com/vwap-trading-strategy/)
+association:: 
+public:: true
+status:: [[draft]]
+
 - # abetrade - VWAP Break and Retest Trend Strategy
 - ## TL;DR
 	- Wait for price to break and hold above (or below) the daily VWAP, then enter on the retest. Use Volume Profile as a confluence filter to avoid chop around high-volume nodes where price can range before committing to a direction.
