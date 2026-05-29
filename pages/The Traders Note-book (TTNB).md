@@ -11,7 +11,7 @@
 	- [[philosophy]] - broader principles that shape how traders think
 	- Every page is tagged by market, timeframe, instrument, and difficulty.. and many more. So a beginner looking for spot crypto swing-trading content can filter directly to it, and someone deep into options orderflow can do the same.
 -
-	- **See**:  [[Properties]] for all linked topics
+	- **See**:  [[Properties]] for all linked topics or Journals for all high-level entries by date.
 	  **Search**: with `ctrl`/`cmd`+`K`
 	  **Filter**: Use the page's Linked References <span class="ti ti-filter"></span> as required
 	-
