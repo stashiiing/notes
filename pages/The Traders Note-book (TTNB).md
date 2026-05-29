@@ -1,6 +1,6 @@
 - A community-built wiki of trading strategies, frameworks, and ideas. Collected from interviews, threads, podcasts, and articles.
 - Each page captures one specific concept, attributed to the trader who shared it, with the source linked so you can go back to the original content. 
-  The strategies here are an interpretation using the information available, and should be treated as such. They are to spark interest and insight, showing you doors you may not
+  The strategies here are an interpretation using the information available, and should be treated as such. They are to spark interest and insight, showing you doors you may not know exist.
 - #### Why
 	- Good trading content gets buried. A trader gives a great breakdown on a podcast, drops a thread, records an interview and three months later it's gone from your feed or buried deep in your bookmarks. The ideas were valuable. The format was lousy. You simply never get round to organising everything you see in a useful way.
 	- This archive is an attempt to fix that. Not a course, not a signal service, not a guru. Just a structured record of what experienced traders have actually said about how they work - searchable, organised, and open. In a graph that connects everything relatable.
