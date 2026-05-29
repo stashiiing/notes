@@ -429,6 +429,22 @@ a.button[href="#/graph"] {
     display: none !important;
 }
 
+
+/* Hide Export graph (it's the only one with ti-database-export) */
+.dropdown-wrapper .menu-link:has(.ti-database-export) {
+    display: none !important;
+}
+
+/* Hide the first two menu-links (View as slides, Export page — they have no icons) */
+.dropdown-wrapper .menu-link:not(:has(.ui__icon)) {
+    display: none !important;
+}
+
+/* Hide the separator */
+.dropdown-wrapper .menu-separator {
+    display: none !important;
+}
+
 /* =============================================================================
    4.3 DIRECT OVERRIDES — LEFT SIDEBAR
    ============================================================================= */

@@ -1,6 +1,6 @@
 - A community-built wiki of trading strategies, frameworks, and ideas. Collected from interviews, threads, podcasts, and articles. Each page captures one specific concept, attributed to the trader who shared it, with the source linked so you can go back to the original content.
 -
-- Find the starting point to your next strategy. The strategies here are interpretations of the information available, and should be treated as such. They are to spark interest and insight, showing you doors you may not know existed.
+- Find the starting point to your next strategy. The strategies here are interpretations of the information available, and should be treated as such. They are to spark interest and insight, showing you doors you may not know exist.
 -
 - ### Why
 	- Good trading content gets buried. A trader gives a great breakdown on a podcast, drops a thread, records an interview and three months later it's gone from your feed or buried deep in your bookmarks. The ideas were valuable. The format was lousy. You simply never get round to organising everything you see in a useful way.
