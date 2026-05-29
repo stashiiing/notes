@@ -1,7 +1,8 @@
 - Find the starting point to your next strategy.
-- Good trading content gets buried. A trader gives a great breakdown on a podcast, drops a thread, records an interview and months later it's gone from your feed or buried deep in your bookmarks.
+	- Good trading content gets buried. A trader gives a great breakdown on a podcast, drops a thread, records an interview and months later it's gone from your feed or buried deep in your bookmarks.
 - The ideas were valuable. The format was lousy.
-- This archive is an attempt to fix that. Not a course, not a signal service, not a guru. A community-built wiki of trading strategies, frameworks, and ideas. Collected from interviews, threads, podcasts, and articles.
+	- This archive is an attempt to fix that. Not a course, not a signal service, not a guru. A community-built wiki of trading strategies, frameworks, and ideas. Collected from interviews, threads, podcasts, and articles.
+	-
 - Each page captures one specific concept, attributed to the trader who shared it, with the source linked so you can go back to the original content. Just a structured record of what experienced traders have actually said about how they work - searchable, organised, and open. In a graph that connects everything relatable. Key concepts get their own dedicated resources as the archive grows.
 - ### What you'll find
 	- [[strategy]] - actionable approaches with entry rules, risk management, and edge cases
