@@ -10,6 +10,6 @@
 	- [[Peter Thiel]]
 	- [[Stanford University]]
 - Project info.
-	- [[More on TTNB]]
+	- [[More on TTN]]
 	-
 -
