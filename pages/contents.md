@@ -6,6 +6,7 @@
 	- [[dlawant]]
 	- [[ethanrkho]]
 	- [[ldrogen]]
+	- [[MichaelNaussCMT]]
 	- [[Peter Thiel]]
 	- [[Stanford University]]
 - Project info.
