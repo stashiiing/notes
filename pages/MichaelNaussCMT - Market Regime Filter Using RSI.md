@@ -1,14 +1,15 @@
-- author:: [[MichaelNaussCMT]]
-  summary:: A binary market regime gate that uses the four-period RSI of the S&P 500 to determine whether conditions are favourable for deploying a mean-reversion strategy. When the RSI(4) is above 50 the system is active and positions are held; when it falls to 50 or below all positions are exited and capital moves to cash until the regime recovers.
-  category:: [[concept]]
-  sub-cat:: [[systematic]], [[quantitative]]
-  timeframe:: [[position]]
-  market:: [[equities]]
-  instrument:: [[spot]]
-  tools:: [[RSI]], [[S&P-500]]
-  difficulty:: [[beginner]]
-  source:: https://letters.statsedgetrading.com
-  status:: [[draft]]
+author:: [[MichaelNaussCMT]]
+summary:: A binary market regime gate that uses the four-period RSI of the S&P 500 to determine whether conditions are favourable for deploying a mean-reversion strategy. When the RSI(4) is above 50 the system is active and positions are held; when it falls to 50 or below all positions are exited and capital moves to cash until the regime recovers.
+category:: [[concept]]
+sub-cat:: [[systematic]], [[quantitative]]
+timeframe:: [[position]]
+market:: [[equities]]
+instrument:: [[spot]]
+tools:: [[RSI]], [[S&P-500]]
+difficulty:: [[beginner]]
+source:: https://drive.google.com/file/d/1AvNJNW5fU6UhH2KsRRAuSTiP4pHzjYIX/view
+status:: [[draft]]
+
 - # Market Regime Filter Using RSI
 - ## TL;DR
 	- A simple, rules-based switch that gates a strategy on or off depending on the short-term momentum of a broad market index. The S&P 500 four-period RSI above 50 signals a healthy regime where mean-reversion strategies have positive expectancy. A reading at or below 50 signals a deteriorating regime; the system exits all positions and sits in cash. The filter prevents the common failure mode of catching falling knives during genuine bear markets.

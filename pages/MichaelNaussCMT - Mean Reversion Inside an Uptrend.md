@@ -1,14 +1,15 @@
-- author:: [[MichaelNaussCMT]]
-  summary:: A well-documented quantitative effect whereby stocks in established longer-term uptrends tend to recover within approximately one month after short-term pullbacks. The phenomenon persists because existing holders maintain a bullish thesis and sidelined buyers treat the dip as an entry, creating reliable buying pressure that systematically offsets panic-selling.
-  category:: [[concept]]
-  sub-cat:: [[systematic]], [[quantitative]], [[price-action]]
-  timeframe:: [[swing]], [[position]]
-  market:: [[equities]]
-  instrument:: [[spot]]
-  tools:: [[RSI]], [[moving-average]]
-  difficulty:: [[intermediate]]
-  source:: https://letters.statsedgetrading.com
-  status:: [[draft]]
+author:: [[MichaelNaussCMT]]
+summary:: A well-documented quantitative effect whereby stocks in established longer-term uptrends tend to recover within approximately one month after short-term pullbacks. The phenomenon persists because existing holders maintain a bullish thesis and sidelined buyers treat the dip as an entry, creating reliable buying pressure that systematically offsets panic-selling.
+category:: [[concept]]
+sub-cat:: [[systematic]], [[quantitative]], [[price-action]]
+timeframe:: [[swing]], [[position]]
+market:: [[equities]]
+instrument:: [[spot]]
+tools:: [[RSI]], [[moving-average]]
+difficulty:: [[intermediate]]
+source:: https://drive.google.com/file/d/1AvNJNW5fU6UhH2KsRRAuSTiP4pHzjYIX/view
+status:: [[draft]]
+
 - # Mean Reversion Inside an Uptrend
 - ## TL;DR
 	- Stocks in genuine long-term uptrends do not rise in a straight line. Short-term pullbacks of significant magnitude occur regularly, and the statistical average one-month return following such a pullback is meaningfully positive. This effect is durable because it is structurally supported by the behaviour of both existing holders (who defend their thesis) and prospective buyers (who treat dips as entries). Systematic strategies can exploit this by buying the most oversold names within uptrends.

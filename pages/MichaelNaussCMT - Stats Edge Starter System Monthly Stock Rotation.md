@@ -1,14 +1,15 @@
-- author:: [[MichaelNaussCMT]]
-  summary:: A monthly stock-rotation system that selects the five most short-term oversold stocks from the Russell 3000 that are in established uptrends, subject to a broader market regime gate. It holds equal-weight positions for one month, exits to cash when the regime turns bearish, and has produced a 13.58% CAGR over a 26-year backtest versus 8.44% for buy-and-hold SPY.
-  category:: [[strategy]]
-  sub-cat:: [[systematic]], [[quantitative]]
-  timeframe:: [[position]]
-  market:: [[equities]]
-  instrument:: [[spot]]
-  tools:: [[RSI]], [[moving-average]], [[stock-screener]], [[Russell-3000]]
-  difficulty:: [[intermediate]]
-  source:: https://letters.statsedgetrading.com
-  status:: [[draft]]
+author:: [[MichaelNaussCMT]]
+summary:: A monthly stock-rotation system that selects the five most short-term oversold stocks from the Russell 3000 that are in established uptrends, subject to a broader market regime gate. It holds equal-weight positions for one month, exits to cash when the regime turns bearish, and has produced a 13.58% CAGR over a 26-year backtest versus 8.44% for buy-and-hold SPY.
+category:: [[strategy]]
+sub-cat:: [[systematic]], [[quantitative]]
+timeframe:: [[position]]
+market:: [[equities]]
+instrument:: [[spot]]
+tools:: [[RSI]], [[moving-average]], [[stock-screener]], [[Russell-3000]]
+difficulty:: [[intermediate]]
+source:: https://drive.google.com/file/d/1AvNJNW5fU6UhH2KsRRAuSTiP4pHzjYIX/view
+status:: [[draft]]
+
 - # Stats Edge Starter System Monthly Stock Rotation
 - ## TL;DR
 	- A fully rules-based monthly rotation system that buys the five most beaten-down stocks inside established uptrends when the S&P 500 regime is healthy. Equal-weight, no leverage, no options. Run once a month on the last trading day; hold for one month; exit to cash when the regime turns off. Backtested 26 years at 13.58% CAGR with a worst drawdown of 26.28%, versus 8.44% CAGR and 46.49% drawdown for buy-and-hold SPY.
