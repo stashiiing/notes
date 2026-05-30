@@ -239,6 +239,10 @@ html[data-theme=dark] {
     --ls-active-primary-color:              var(--deep-amber);      /* Embed page icon */
     --ls-active-secondary-color:            var(--white);           /* Embed page icon folded corner */
     --ls-cloze-text-color:                  var(--white);           /* Cloze deletions in flashcards */
+
+
+    --lx-accent-02: 				var(--deep-red);
+}
 }
 
 
@@ -570,7 +574,6 @@ html[data-theme=dark] .left-sidebar-inner a.item.active {
     margin-bottom: 0.25rem;
     margin-left: 0 !important;
 }
-
 
 /* =============================================================================
    4.6 DIRECT OVERRIDES — BLOCKS
