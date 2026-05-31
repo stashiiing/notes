@@ -1,8 +1,9 @@
 date:: 
-type:: [[interview]], [[thread]], [[article]], [[video]], [[course]]
-title:: 
+type:: [[interview]], [[thread]], [[article]], [[video]], [[course]], [[paper]]
+subject:: 
+author:: 
 by:: 
-source::  
+source:: 
 summary::
 
 	- author:: 
