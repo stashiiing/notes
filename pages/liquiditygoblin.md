@@ -1,0 +1,3 @@
+- [@liquiditygoblin](https://x.com/liquiditygoblin)
+- long term greedy, short term speedy
+- [@GoblinCap_](https://x.com/GoblinCap_)
