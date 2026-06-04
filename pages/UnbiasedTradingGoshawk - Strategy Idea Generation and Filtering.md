@@ -1,14 +1,15 @@
-- author:: [[UnbiasedTradingGoshawk]]
-  summary:: A process for sourcing and evaluating new strategy ideas centred on understanding the underlying reason an edge exists rather than pattern-matching on historical data. Ideas come from books, Twitter, research papers and gaps in the existing portfolio. The filtering question is always: can I articulate why this should make money in the future?
-  category:: [[framework]]
-  sub-cat:: [[systematic]], [[algorithmic]], [[philosophy]]
-  timeframe::
-  market:: [[all]]
-  instrument::
-  tools:: [[backtesting]], [[research]]
-  difficulty:: [[intermediate]]
-  source:: https://www.youtube.com/watch?v= [19:10]
-  status:: [[draft]]
+author:: [[GoshawkTrades]]
+summary:: A process for sourcing and evaluating new strategy ideas centred on understanding the underlying reason an edge exists rather than pattern-matching on historical data. Ideas come from books, Twitter, research papers and gaps in the existing portfolio. The filtering question is always: can I articulate why this should make money in the future?
+category:: [[framework]]
+sub-cat:: [[systematic]], [[algorithmic]], [[philosophy]]
+timeframe::
+market:: [[all]]
+instrument::
+tools:: [[backtesting]], [[research]]
+difficulty:: [[intermediate]]
+source:: https://www.youtube.com/watch?v= [19:10]
+status:: [[draft]]
+
 - # Strategy Idea Generation and Filtering
 - ## TL;DR
 	- A strategy idea is only worth testing if you can articulate why it should make money — not just that it has in the past. Source ideas from books, Twitter, research papers and your portfolio's correlation gaps. Apply a prior filter before any backtesting: does this idea have a credible economic reason to generate returns? Discard quickly if not.

@@ -1,14 +1,15 @@
-- author:: [[UnbiasedTradingGoshawk]]
-  summary:: The central goal of algorithmic portfolio construction is to accumulate strategies whose returns are as uncorrelated as possible. This requires diversifying across instruments, strategy types and time frames. Diminishing returns set in above roughly 12–15 strategies, and the greatest diversification gains come from going from one strategy to five.
-  category:: [[framework]]
-  sub-cat:: [[systematic]], [[algorithmic]], [[quantitative]]
-  timeframe::
-  market:: [[all]]
-  instrument::
-  tools:: [[correlation matrix]], [[volatility targeting]]
-  difficulty:: [[intermediate]]
-  source:: https://www.youtube.com/watch?v= [08:32]
-  status:: [[draft]]
+author:: [[GoshawkTrades]]
+summary:: The central goal of algorithmic portfolio construction is to accumulate strategies whose returns are as uncorrelated as possible. This requires diversifying across instruments, strategy types and time frames. Diminishing returns set in above roughly 12–15 strategies, and the greatest diversification gains come from going from one strategy to five.
+category:: [[framework]]
+sub-cat:: [[systematic]], [[algorithmic]], [[quantitative]]
+timeframe::
+market:: [[all]]
+instrument::
+tools:: [[correlation matrix]], [[volatility targeting]]
+difficulty:: [[intermediate]]
+source:: https://www.youtube.com/watch?v= [08:32]
+status:: [[draft]]
+
 - # Uncorrelated Strategy Portfolio Construction
 - ## TL;DR
 	- Build a portfolio of strategies that do not move together. Diversify across instruments, strategy types (trend, mean reversion, arb) and time frames. The biggest diversification gains come early — from one strategy to five. Above 10–12 strategies, new additions rarely add genuine diversification.

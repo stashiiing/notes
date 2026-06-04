@@ -1,14 +1,15 @@
-- author:: [[UnbiasedTradingGoshawk]]
-  summary:: Size positions by targeting a consistent volatility contribution per trade rather than targeting a fixed return. Higher-volatility assets receive smaller allocations; lower-volatility assets receive larger ones. This keeps risk normalised across instruments and strategies.
-  category:: [[framework]]
-  sub-cat:: [[systematic]], [[algorithmic]], [[quantitative]]
-  timeframe::
-  market:: [[all]]
-  instrument::
-  tools:: [[volatility targeting]], [[ATR]], [[position sizing]]
-  difficulty:: [[intermediate]]
-  source:: https://www.youtube.com/watch?v= [40:38]
-  status:: [[draft]]
+author:: [[GoshawkTrades]]
+summary:: Size positions by targeting a consistent volatility contribution per trade rather than targeting a fixed return. Higher-volatility assets receive smaller allocations; lower-volatility assets receive larger ones. This keeps risk normalised across instruments and strategies.
+category:: [[framework]]
+sub-cat:: [[systematic]], [[algorithmic]], [[quantitative]]
+timeframe::
+market:: [[all]]
+instrument::
+tools:: [[volatility targeting]], [[ATR]], [[position sizing]]
+difficulty:: [[intermediate]]
+source:: https://www.youtube.com/watch?v= [40:38]
+status:: [[draft]]
+
 - # Volatility-Based Position Sizing
 - ## TL;DR
 	- Do not size positions to hit a return target. Size them to contribute a consistent, controlled amount of volatility to the portfolio. This is the only variable you can reliably control. Returns follow from having good signals and letting this sizing framework compound over time.

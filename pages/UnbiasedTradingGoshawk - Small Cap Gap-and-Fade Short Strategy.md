@@ -1,14 +1,15 @@
-- author:: [[UnbiasedTradingGoshawk]]
-  summary:: A systematic short strategy targeting sub-500M market cap stocks gapping up significantly on news. Approximately 70% of gappers close red on the day, providing a repeatable edge. The primary challenge is risk management around halts and extreme intraday volatility near the open.
-  category:: [[strategy]]
-  sub-cat:: [[systematic]], [[algorithmic]]
-  timeframe:: [[intraday]]
-  market:: [[equities]]
-  instrument:: [[spot]]
-  tools:: [[gap scanner]], [[short selling]], [[risk management]]
-  difficulty:: [[intermediate]]
-  source:: https://www.youtube.com/watch?v= [04:19]
-  status:: [[draft]]
+author:: [[GoshawkTrades]]
+summary:: A systematic short strategy targeting sub-500M market cap stocks gapping up significantly on news. Approximately 70% of gappers close red on the day, providing a repeatable edge. The primary challenge is risk management around halts and extreme intraday volatility near the open.
+category:: [[strategy]]
+sub-cat:: [[systematic]], [[algorithmic]]
+timeframe:: [[intraday]]
+market:: [[equities]]
+instrument:: [[spot]]
+tools:: [[gap scanner]], [[short selling]], [[risk management]]
+difficulty:: [[intermediate]]
+source:: https://www.youtube.com/watch?v= [04:19]
+status:: [[draft]]
+
 - # Small Cap Gap-and-Fade Short Strategy
 - ## TL;DR
 	- Short sub-500M market cap stocks that gap up large on questionable news. Roughly 70% of these gappers close red on the day. The edge is statistical and repeatable; the main risk is halt exposure and extreme open volatility.

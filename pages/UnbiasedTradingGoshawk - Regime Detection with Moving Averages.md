@@ -1,14 +1,15 @@
-- author:: [[UnbiasedTradingGoshawk]]
-  summary:: A simple moving average-based regime filter to switch between trend-following and mean-reversion modes. Price above the 200 MA or 50 MA signals a trending regime; price between the two signals chop. This prevents taking mean-reversion trades in a strong trend and vice versa.
-  category:: [[concept]]
-  sub-cat:: [[systematic]], [[algorithmic]], [[price-action]]
-  timeframe:: [[swing]], [[position]]
-  market:: [[all]]
-  instrument::
-  tools:: [[moving average]], [[200 MA]], [[50 MA]], [[regime filter]]
-  difficulty:: [[beginner]]
-  source:: https://www.youtube.com/watch?v= [25:56]
-  status:: [[draft]]
+author:: [[GoshawkTrades]]
+summary:: A simple moving average-based regime filter to switch between trend-following and mean-reversion modes. Price above the 200 MA or 50 MA signals a trending regime; price between the two signals chop. This prevents taking mean-reversion trades in a strong trend and vice versa.
+category:: [[concept]]
+sub-cat:: [[systematic]], [[algorithmic]], [[price-action]]
+timeframe:: [[swing]], [[position]]
+market:: [[all]]
+instrument::
+tools:: [[moving average]], [[200 MA]], [[50 MA]], [[regime filter]]
+difficulty:: [[beginner]]
+source:: https://www.youtube.com/watch?v= [25:56]
+status:: [[draft]]
+
 - # Regime Detection with Moving Averages
 - ## TL;DR
 	- Use the 50 and 200 MA as a simple regime filter. Above the 200 MA tends to be trending; between the two tends to be choppy. Disable mean-reversion entries in trending regimes and vice versa. No filter is perfect, but running trend and mean-reversion strategies simultaneously provides a natural hedge when the regime detection is imprecise.

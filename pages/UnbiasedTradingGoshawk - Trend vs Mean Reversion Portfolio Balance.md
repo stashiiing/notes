@@ -1,14 +1,15 @@
-- author:: [[UnbiasedTradingGoshawk]]
-  summary:: Minir allocates roughly 40% of his portfolio to trend-following strategies, 35% to mean reversion and the remainder to opportunistic or arbitrage plays. Trend following generates the majority of returns but produces deep drawdowns in choppy markets; mean reversion acts as a partial hedge during those periods.
-  category:: [[framework]]
-  sub-cat:: [[systematic]], [[algorithmic]], [[quantitative]]
-  timeframe::
-  market:: [[all]]
-  instrument::
-  tools:: [[portfolio allocation]], [[trend following]], [[mean reversion]]
-  difficulty:: [[intermediate]]
-  source:: https://www.youtube.com/watch?v= [26:40]
-  status:: [[draft]]
+author:: [[GoshawkTrades]]
+summary:: Minir allocates roughly 40% of his portfolio to trend-following strategies, 35% to mean reversion and the remainder to opportunistic or arbitrage plays. Trend following generates the majority of returns but produces deep drawdowns in choppy markets; mean reversion acts as a partial hedge during those periods.
+category:: [[framework]]
+sub-cat:: [[systematic]], [[algorithmic]], [[quantitative]]
+timeframe::
+market:: [[all]]
+instrument::
+tools:: [[portfolio allocation]], [[trend following]], [[mean reversion]]
+difficulty:: [[intermediate]]
+source:: https://www.youtube.com/watch?v= [26:40]
+status:: [[draft]]
+
 - # Trend vs Mean Reversion Portfolio Balance
 - ## TL;DR
 	- Hold roughly 40% in trend strategies and 35% in mean-reversion strategies. Trend generates the bulk of returns when markets move directionally; mean reversion cushions equity curve drawdowns during choppy conditions. The two strategy types are naturally partially offsetting, which smooths performance without needing perfect regime detection.

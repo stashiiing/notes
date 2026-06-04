@@ -15,7 +15,7 @@
 	- [[Stanford University]]
 	- [[larpcapitalwc]]
 	  background-color:: blue
-	- [[UnbiasedTradingGoshawk]]
+	- [[GoshawkTrades]]
 - Project info.
 	- [[More on TTN]]
 	-

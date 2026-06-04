@@ -1,14 +1,15 @@
-- author:: [[UnbiasedTradingGoshawk]]
-  summary:: The most common failure mode in algorithmic trading is overfitting: tuning too many parameters to historical data so the backtest looks perfect but live performance collapses. The solution is strict out-of-sample testing and keeping strategies to two or three free parameters maximum.
-  category:: [[concept]]
-  sub-cat:: [[systematic]], [[algorithmic]], [[quantitative]]
-  timeframe::
-  market:: [[all]]
-  instrument::
-  tools:: [[backtesting]], [[out-of-sample testing]], [[walk-forward]]
-  difficulty:: [[intermediate]]
-  source:: https://www.youtube.com/watch?v= [54:22]
-  status:: [[draft]]
+author:: [[GoshawkTrades]]
+summary:: The most common failure mode in algorithmic trading is overfitting: tuning too many parameters to historical data so the backtest looks perfect but live performance collapses. The solution is strict out-of-sample testing and keeping strategies to two or three free parameters maximum.
+category:: [[concept]]
+sub-cat:: [[systematic]], [[algorithmic]], [[quantitative]]
+timeframe::
+market:: [[all]]
+instrument::
+tools:: [[backtesting]], [[out-of-sample testing]], [[walk-forward]]
+difficulty:: [[intermediate]]
+source:: https://www.youtube.com/watch?v= [54:22]
+status:: [[draft]]
+
 - # Overfitting and Out-of-Sample Testing
 - ## TL;DR
 	- Fitting too many parameters to historical data produces strategies that look great in backtests and fail immediately in live trading. Keep parameters to two or three, reserve two or more years of data as a true out-of-sample test set, and never optimise on that held-out data.
